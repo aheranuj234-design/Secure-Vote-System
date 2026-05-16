@@ -508,17 +508,4 @@ def server_error(e):
 # ─── Entry Point ─────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    # Initialise database (file handling — creates evoting.db)
-    print("=" * 50)
-    print(f"  {COLLEGE_NAME}")
-    print(f"  {ELECTION_NAME}")
-    print("=" * 50)
-    print("Initialising database...")
-    db.init_db()
-    print("Database ready.")
-    print("\nDefault admin credentials:")
-    print("  Email   : admin@college.edu")
-    print("  Password: admin123")
-    print("\nStarting server at http://127.0.0.1:5000")
-    print("=" * 50)
-    app.run(debug=True, host="0.0.0.0", port=5000)
+   app.run()
