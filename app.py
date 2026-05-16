@@ -13,7 +13,7 @@ import urllib.parse
 import hashlib
 import secrets
 
-import database as db
+from App import database as db
 from models import Election
 
 # ─── App Configuration ────────────────────────────────────────────────────────
