@@ -14,7 +14,7 @@ import hashlib
 import secrets
 
 from App import database as db
-from models import Election
+from App.models import Election
 
 # ─── App Configuration ────────────────────────────────────────────────────────
 
